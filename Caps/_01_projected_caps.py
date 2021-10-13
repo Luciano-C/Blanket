@@ -56,9 +56,9 @@ def ranks_function():
     matriz_jugadores.insert(1, "MMR", mmr2)
 
     projected_caps = open("report_projected_caps.txt", "w", encoding="UTF-8")
-    encabezados = matriz_jugadores.head(len(matriz_jugadores))  # Asigna el encabezado y los N primeros valores
+    encabezados = matriz_jugadores.head(len(matriz_jugadores))
     projected_caps.write(
-        encabezados.to_string(index=False, justify="center"))  # index = False imprime la matriz sin los índices
+        encabezados.to_string(index=False, justify="center"))
     projected_caps.close()
 
     return matriz_jugadores

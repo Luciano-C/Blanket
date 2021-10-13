@@ -25,7 +25,6 @@ def caps_function():
     niveles_tvt.loc[len(niveles_tvt)] = Totales
 
     nombre2 = []
-    mmr2 = []
 
     # Arregla formato de columnas nombre y MMR
     for nombre in range(0, len(niveles_tvt)):
@@ -38,9 +37,9 @@ def caps_function():
 
     # Genera reporte
     report = open("report_required_caps.txt", "w", encoding="UTF-8")
-    encabezados = niveles_tvt.head(len(niveles_tvt))  # Asigna el encabezado y los N primeros valores
+    encabezados = niveles_tvt.head(len(niveles_tvt))
     report.write(
-        encabezados.to_string(index=False, justify="center"))  # index = False imprime la matriz sin los índices
+        encabezados.to_string(index=False, justify="center"))
     report.write("\n" + "\n")
     report.write(f"Caps needed: {total_caps_needed}" + "\n")
 
