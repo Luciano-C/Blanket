@@ -14,7 +14,7 @@ from Lists.hit import hit
 from reply_generator import generate_reply
 
 
-intents = discord.Intents.default()  #Permite acceder a lista de ususarios. Fuente: https://stackoverflow.com/questions/64215965/discord-python-guild-members-return-only-bot-but-no-members
+intents = discord.Intents.default()  
 intents.members = True
 
 from keep_alive import keep_alive
