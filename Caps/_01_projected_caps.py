@@ -36,7 +36,7 @@ def ranks_function():
     total_mas = matriz_jugadores["+"].sum()
     total_menos = matriz_jugadores["-"].sum()
 
-    # Crea las nuevas filas como listas y luego se añaden a los indices que corresponder (añadir filas usando .loc[]
+    # Crea las nuevas filas como listas y luego se añaden a los indices que corresponden
     totales_por_dia = ["Total per day", "-", str(total_caps), "+" + str(total_mas), str(total_menos)]
     totales = ["Total projected", "-", str(total_caps * 3), "+" + str(total_mas * 3), str(total_menos * 3)]
     matriz_jugadores.loc[total_jugadores] = totales_por_dia

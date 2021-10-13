@@ -14,7 +14,7 @@ from Lists.hit import hit
 from reply_generator import generate_reply
 
 
-intents = discord.Intents.default()  
+intents = discord.Intents.default()
 intents.members = True
 
 from keep_alive import keep_alive

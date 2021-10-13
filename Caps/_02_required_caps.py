@@ -35,14 +35,6 @@ def caps_function():
     del (niveles_tvt["Name"])
     niveles_tvt.insert(0, "Name", nombre2)
 
-    # # Llama al código de caps estimadas para para comparar las necesitadas vs las disponibles
-    # print(niveles_tvt)
-    # import _01_projected_caps
-    # from _01_projected_caps import total_caps as total_caps_available
-    # from _01_projected_caps import total_mas, total_menos
-    #
-    # print(f"Caps needed: {total_caps_needed}")
-    # print(f"Caps available: {total_caps_available * 3} (+{total_mas * 3}/{total_menos * 3})")
 
     # Genera reporte
     report = open("report_required_caps.txt", "w", encoding="UTF-8")
