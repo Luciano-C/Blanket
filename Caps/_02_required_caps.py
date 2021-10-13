@@ -43,7 +43,7 @@ def caps_function():
         encabezados.to_string(index=False, justify="center"))  # index = False imprime la matriz sin los índices
     report.write("\n" + "\n")
     report.write(f"Caps needed: {total_caps_needed}" + "\n")
- 
+
 
     return total_caps_needed
 

@@ -1,4 +1,4 @@
-#Definición de clase Card, basada en el codigo _02_required_caps.py
+
 class Card:
     def __init__(self,name,rarity,level):
         self.name = name
@@ -67,7 +67,7 @@ class Card:
                 self.caps = 575
         return self.caps
 
-# Función para buscar rareza de cartas basada en el codigo _02_required_caps.py
+
 def get_rarities(df_cartas,df_niveles_evaluar):
     cards_rarities = []
     for iteracion_tvt in range(0, len(df_niveles_evaluar)):
