@@ -1,7 +1,7 @@
 # Blanket
 ## Discord Bot
 Blanket is a discord bot created to perform some tasks to help planning for team wars on the game South Park Phone Destroyer and to spam a bit funny stuff.
-The bot is written in Python and uses the library discord.py. I created it while I was learning Python as a way to practice the stuff I was learning at the moment, so probably there are things that could be done more efficiently, but still the bot does everyhing I wanted it to do with no bugs as far as I can tell.
+The bot is written in Python and uses the library discord.py. I created it while I was learning Python as a way to practice the stuff I was learning at the moment, so probably there are things that could be done more efficiently, so any suggestions are welcome.
 
 ## Libraries used
 - Discord
