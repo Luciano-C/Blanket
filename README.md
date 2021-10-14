@@ -21,7 +21,7 @@ The bot is written in Python and uses the library discord.py. I created it while
 <li>-bl to eng (message): Uses textblob to translate a message to english.</li>
 <li>-bl to spa (message): Uses textblob to translate a message to spanish.</li>
 <li>-bl love: Uses the member list of the server. Chooses a random love phrase and sends love to a random member. Optional: You can mention a specific member to send love.</li>
-<li>-bl hit: Uses the member list of the server. Chooses a random hit phrase and hits a randonm member. Optional: You can mention a specific member to hit.</li>
+<li>-bl hit: Uses the member list of the server. Chooses a random hit phrase and hits a random member. Optional: You can mention a specific member to hit.</li>
 <li>-bl brawl: Uses the hit command multiple times to create a big fight.</li>
 <li>-bl lovefest: Uses the love command multiple times to create a love fest.</li>
 </ul>
