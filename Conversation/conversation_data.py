@@ -22,10 +22,6 @@ conversation_data = {
             "responses": ["Bye!", "See you later.", "cya.", "Hasta la vista."],
             "priority": 0.5},
 
-        "insult": {
-            "patterns": ["fuck you", "suck it", "suck my", "scrub", "douchebag", "fuck off", "fag", "bitch", "imbecil", "stupid", "retard", "moron", "you suck", "are shit", "shitty", "piece of shit", "dumb", "ugly", "horrible", "cunt", "dipshit", "jackass", "fucker"],
-            "responses": ["That's not very nice.", "Potty mouth!", "That really, really, truly hurts my feelings.", "Hey...fuck you!", "Aww, that makes me muy triste."],
-            "priority": 7.9},
 
         "feelings": {
             "patterns": ["you happy", "you sad", "you angry?", "you hungry?", "you feeling", "feeling", "love you", "love with",  "loves you", "i want you", "i need you", "feel", "desire you", "'m sad", "am sad", "'m happy", "am happy", "'m glad", "am glad", "'m depressed", "am depressed", "felt"],
@@ -147,10 +143,6 @@ conversation_data = {
             "responses": ["Is that the real reason?", "What other reasons might there be?", "Ok. I guess."],
             "priority": 3.3},
 
-        "sex": {
-            "patterns": ["to fuck you", "bend over", "sex", "strip", "naked", "make love", "on your knees", "give head", "blow me", "blow my", "fuck me", "kiss me", "fuck my", "bite my", "lick my", "lick me", "suck my dick", "blow my dick"],
-            "responses": ["Dude...", "My kisses taste like tacos.", "I'm not a pleasure model.", "Are you not even going to offer dinner first at least?"],
-            "priority": 10},
 
         "thank you": {
             "patterns": ["thanks", "thank you", "appreciated", "gratitude", "thx"],

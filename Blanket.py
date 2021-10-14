@@ -5,7 +5,6 @@ from Caps import _02_required_caps
 from textblob import TextBlob
 from Lists.quotes import quotes
 from Lists.jokes import jokes
-from Lists.nudes import nudes
 from Lists.roasting import roasting
 from Lists.love import love
 from Lists.hit import hit
@@ -68,10 +67,6 @@ async def on_message(message):
             random_roast = random.choice(roasting)
             await message.channel.send(random_roast)
 
-
-        elif message.content.startswith('-bl nude'):
-            random_nude = random.choice(nudes)
-            await message.channel.send(random_nude)
 
         elif message.content.startswith('-bl joke'):
             random_joke = random.choice(jokes)
