@@ -176,9 +176,9 @@ async def on_message(message):
 
             lover = message.author
             targets = random.sample(list_of_members, 2)
-            target = random.choice(list_of_members)
 
-            await message.channel.send(love(lover, targets, target))
+
+            await message.channel.send(love(lover, targets))
 
 
         elif message.content == '-bl hit':   #Para etiquetar escribir {user.mention}
@@ -188,9 +188,8 @@ async def on_message(message):
 
             hitter = message.author
             targets = random.sample(list_of_members, 2)
-            target = random.choice(list_of_members)
 
-            await message.channel.send(hit(hitter, targets, target))
+            await message.channel.send(hit(hitter, targets))
 
 
         elif message.content.startswith('-bl love') and len(message.mentions) == 1 and not message.mentions[0].bot:
@@ -199,9 +198,9 @@ async def on_message(message):
 
             lover = message.author
             targets = [message.mentions[0], random.choice(list_of_members)]
-            target = message.mentions[0]
 
-            await message.channel.send(love(lover, targets, target))
+
+            await message.channel.send(love(lover, targets))
 
 
 
@@ -211,9 +210,8 @@ async def on_message(message):
 
             hitter = message.author
             targets = [message.mentions[0], random.choice(list_of_members)]
-            target = message.mentions[0]
 
-            await message.channel.send(hit(hitter, targets, target))
+            await message.channel.send(hit(hitter, targets))
 
         elif message.content.startswith('-bl love') and len(message.mentions) == 1 and message.mentions[0].bot:
             await message.channel.send("Imagine being in love with a bot :joy:")
@@ -225,9 +223,8 @@ async def on_message(message):
 
             hitter = client.user
             targets = [message.author, random.choice(list_of_members)]
-            target = message.author
 
-            await message.channel.send("Hitting bots is not cool." + "\n" + hit(hitter, targets, target))
+            await message.channel.send("Hitting bots is not cool." + "\n" + hit(hitter, targets))
 
 
         elif message.content == '-bl brawl':
@@ -238,9 +235,9 @@ async def on_message(message):
             for fight in range(random.randint(5,8)):
                 hitter = random.choice(list_of_members)
                 targets = random.sample([member for member in list_of_members if member != hitter],2)
-                target = random.choice([member for member in list_of_members if member != hitter])
 
-                mensaje.append(hit(hitter,targets,target))
+
+                mensaje.append(hit(hitter,targets))
 
             await message.channel.send("FIGHT! Ding, ding, ding :bell:" + "\n \n" + "\n \n".join(mensaje))
 
@@ -253,9 +250,8 @@ async def on_message(message):
             for romance in range(random.randint(5,8)):
                 lover = random.choice(list_of_members)
                 targets = random.sample([member for member in list_of_members if member != lover],2)
-                target = random.choice([member for member in list_of_members if member != lover])
 
-                mensaje.append(love(lover,targets,target))
+                mensaje.append(love(lover,targets))
 
             await message.channel.send("Love is in the air, tee hee hee! :cupid:" + "\n \n" + "\n \n".join(mensaje))
 
