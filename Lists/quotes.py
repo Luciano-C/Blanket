@@ -15,7 +15,7 @@ quotes = ["\"Might want to train your wife how to play your account. Idk if we w
           "- lumberjaxx: \"I'm actually really into my girlfriend. Objectifying celebrities is bad.\" \n- r3NICKulous: \"Yeah bro my wife and nirvs mom are the only women for me.\"",
           "- Sharpie: \"My wife said there will be a frasier reboot if anyone is into that.\" \n- Nirvleach: \"I'm into your wife, yes.\" \n- ROB: \"Is this the queue for Sharpie's wife?\"",
           "\"My sources tell me sticking a fork in your outlet makes the body immune to COVID. SuperMooChing give it a shot and let us know.\" - Osamas Camel.", "\"I once burped and farted at the same time. So I got that going for me.\" - ongo gablogian.",
-          "\"I did the monkey and it worked pretty good.\" - ToPoT.", "\"Did you know I visited Cuba?\" - Nirvleach, every now and then.", "- ROB: \"Cuban meat always delivers.\" \n- ksgro: \"Yeah, you cubans know what's up.\"",
+          "\"I did the monkey and it worked pretty good.\" - ToPoT.", "\"Did you know I visited Cuba?\" - Nirvleach, every now and then.",
           "\"I think you need to be braindead to not be at 9.5k+ with a level 6 Sizzler.\" - Bollo, bitching about Sizzler again.",
           "\"I didn't even practice and got 114...ignore those friendly fights I had with Nirvleach and ROB. They needed it, not me.\" - Sharpie."]
 
